@@ -1,0 +1,1 @@
+JAVA Assessment practice 1 with test cases.
