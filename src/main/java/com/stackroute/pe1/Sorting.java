@@ -1,3 +1,5 @@
+//input an integer and sort its dif-gits in non increasing order and find the sum of all even digits.
+
 package com.stackroute.pe1;
 
 import java.util.Scanner;
