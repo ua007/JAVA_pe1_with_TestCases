@@ -1,3 +1,5 @@
+//for an inputed string return a pattern
+
 package com.stackroute.pe1;
 
 import java.util.Scanner;
@@ -6,20 +8,20 @@ public class pattern {
     {
         System.out.print("Enter the value of n=");
         Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        System.out.println(printing_pattern(n));
+        int number=sc.nextInt();//input string
+        System.out.println(printing_pattern(number));
     }
-    public static String printing_pattern(int n)
+    public static String printing_pattern(int number)
     {
-        int i,j;
-        String str="";
-        for(i=0;i<=n;i++)
+        int index,iterate;
+        String patternString="";
+        for(index=0;index<=n;index++)//forming pattern
         {
-            for(j=0;j<i;j++)
+            for(iterate=0;iterate<index;iterate++)
             {
-                str=str+i;
+                patternString=patternString+index;
             }
         }
-        return str;
+        return patternString;
     }
 }
