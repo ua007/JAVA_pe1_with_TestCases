@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CharacterIdentifyingTest {
+    //test case for capital letter
     @Test
     public void givenCharacterIsUpperCaseShouldReturnMessage(){
         CharacterIdentifying ch=new CharacterIdentifying();
@@ -11,6 +12,7 @@ public class CharacterIdentifyingTest {
         result=ch.characterChecker('A');
         assertEquals("Capital Letter",result);
     }
+    //test case for small character
     @Test
     public void givenCharacterIsLowerCaseShouldReturnMessage(){
         CharacterIdentifying ch=new CharacterIdentifying();
@@ -18,6 +20,7 @@ public class CharacterIdentifyingTest {
         result=ch.characterChecker('a');
         assertEquals("Lower case",result);
     }
+    //test case for special cases
     @Test
     public void givenCharacterIsSpacialShouldReturnMessage(){
         CharacterIdentifying ch=new CharacterIdentifying();
