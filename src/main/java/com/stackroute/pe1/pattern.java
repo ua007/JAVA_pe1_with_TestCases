@@ -1,4 +1,4 @@
-//for an inputed string return a pattern
+//for an inputed integer return a pattern
 
 package com.stackroute.pe1;
 
