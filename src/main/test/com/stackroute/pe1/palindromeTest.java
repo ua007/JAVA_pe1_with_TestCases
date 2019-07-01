@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class palindromeTest {
+    //test case for being a palindrome and sum of even digits is greater than 25
     @Test
     public void givenIntegerIsPalindromeSumGreaterThanShouldReturnMessage(){
         //
@@ -14,6 +15,7 @@ public class palindromeTest {
         //assert
         assertEquals("is palindrome and the sum of even numbers is greater than 25",result);
     }
+    //test case for being a palindrome and sum of even digits is less than 25
     @Test
     public void givenIntegerIsPalindromeSumLessThanShouldReturnMessage(){
         palindrome ab=new palindrome();
@@ -23,6 +25,7 @@ public class palindromeTest {
         //assert
         assertEquals("is palindrome and the sum of even numbers is less than 25",result);
     }
+    //test case for not being a palindrome 
     @Test
     public void givenIntegerIsNotPalindromeShouldReturnMessage(){
         palindrome ab=new palindrome();
