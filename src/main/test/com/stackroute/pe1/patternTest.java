@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class patternTest {
+    //test case for integer 5
     @Test
     public void givenIntegerShouldReturnPattern(){
         pattern num=new pattern();
