@@ -5,16 +5,16 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class palindromeTest {
-    
+    palindrome ab;
     @Before
     public void setUp() throws Exception
     {
-        ob=new palindrome();
+        ab=new palindrome();
     }
 
     @After
     public void tearDown() throws Exception {
-        ob=null;
+        ab=null;
     }
     //test case for being a palindrome and sum of even digits is greater than 25
     @Test
