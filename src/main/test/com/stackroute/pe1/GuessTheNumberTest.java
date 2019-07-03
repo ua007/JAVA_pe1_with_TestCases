@@ -6,16 +6,17 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class GuessTheNumberTest {
+    GuessTheNumber num;
     
     @Before
     public void setUp() throws Exception
     {
-        ob=new GuessTheNumber();
+        num=new GuessTheNumber();
     }
 
     @After
     public void tearDown() throws Exception {
-        ob=null;
+        num=null;
     }
     @Test
     public void givenIntegerIsEqualToRandomNumberShouldReturnMessage(){
