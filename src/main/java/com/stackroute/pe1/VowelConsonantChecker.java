@@ -1,15 +1,19 @@
+//check and display the output for the inputed string
+
 package com.stackroute.pe1;
 
 import java.util.Scanner;
 import java.lang.String;
 public class VowelConsonantChecker {
+    
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the String");
-        String inputString=scanner.nextLine();
-        System.out.println(vowelConsonantCheck(inputString));
+        String inputString=scanner.nextLine();//input string
+        System.out.println(vowelConsonantCheck(inputString));//output vowel consonant 
     }
+    //check for vowel and consonant
     public static String vowelConsonantCheck(String inputString)
     {
         String str="";

@@ -1,8 +1,11 @@
+//Identify if the character is uppercase, lowercase, special character
+
 package com.stackroute.pe1;
 
 import java.util.Scanner;
 import java.lang.String;
 public class CharacterIdentifying {
+    //CharacterIdentifier main block
     public static void main(String[] args)
     {
         System.out.print("enter the character=");
@@ -11,6 +14,7 @@ public class CharacterIdentifying {
 
         System.out.println(characterChecker(ch));
     }
+    //ChacterChecker which returns message
     public static String characterChecker(char ch)
     {
         if(ch>='A' && ch<='Z')

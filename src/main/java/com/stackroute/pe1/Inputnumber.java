@@ -1,3 +1,5 @@
+//string of numbers are inputed with space between them and we have to find its sum.
+
 package com.stackroute.pe1;
 
 public class Inputnumber

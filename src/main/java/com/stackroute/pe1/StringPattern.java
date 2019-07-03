@@ -1,3 +1,5 @@
+//for the input string and an integer a pattern should be printed
+
 package com.stackroute.pe1;
 
 import java.util.Scanner;
