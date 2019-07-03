@@ -1,13 +1,25 @@
 package com.stackroute.pe1;
-
+import org.junit.After;
+import org.junit.Before;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CharacterIdentifyingTest {
+    
+    @Before
+    public void setUp() throws Exception
+    {
+        ch=new CharacterIdentifying();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        ch=null;
+    }
     //test case for capital letter
     @Test
     public void givenCharacterIsUpperCaseShouldReturnMessage(){
-        CharacterIdentifying ch=new CharacterIdentifying();
+
         String result;
         result=ch.characterChecker('A');
         assertEquals("Capital Letter",result);
@@ -15,7 +27,7 @@ public class CharacterIdentifyingTest {
     //test case for small character
     @Test
     public void givenCharacterIsLowerCaseShouldReturnMessage(){
-        CharacterIdentifying ch=new CharacterIdentifying();
+        
         String result;
         result=ch.characterChecker('a');
         assertEquals("Lower case",result);
@@ -23,7 +35,7 @@ public class CharacterIdentifyingTest {
     //test case for special cases
     @Test
     public void givenCharacterIsSpacialShouldReturnMessage(){
-        CharacterIdentifying ch=new CharacterIdentifying();
+        
         String result;
         result=ch.characterChecker('@');
         assertEquals("Special Character",result);
