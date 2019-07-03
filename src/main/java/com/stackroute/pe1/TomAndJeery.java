@@ -1,7 +1,7 @@
 package com.stackroute.pe1;
 
 import java.util.Scanner;
-public class tom_and_jeery {
+public class TomAndJeery {
     public static void main(String[] args) {
         System.out.print("enter the number=");
         Scanner sc = new Scanner(System.in);

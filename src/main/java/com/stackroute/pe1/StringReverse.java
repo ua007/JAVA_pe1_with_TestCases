@@ -2,7 +2,7 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class string_reverse {
+public class StringReverse {
 
     public static void main(String[] args) {
         // write your code here

@@ -1,7 +1,7 @@
 package com.stackroute.pe1;
 
 import java.util.Scanner;
-public class palindrome
+public class Palindrome
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,16 +34,16 @@ public class palindrome
             }
             if(sum>25)
             {
-                return("is palindrome and the sum of even numbers is greater than 25");
+                return("is Palindrome and the sum of even numbers is greater than 25");
             }
             else
             {
-                return("is palindrome and the sum of even numbers is less than 25");
+                return("is Palindrome and the sum of even numbers is less than 25");
             }
         }
         else
         {
-            return("is not a palindrome number.");
+            return("is not a Palindrome number.");
         }
     }
 }

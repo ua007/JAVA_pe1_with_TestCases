@@ -1,7 +1,7 @@
 package com.stackroute.pe1;
 
 import java.util.Scanner;
-public class pattern {
+public class Pattern {
     public static void main(String[] args)
     {
         System.out.print("Enter the value of n=");

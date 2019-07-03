@@ -15,7 +15,7 @@ public class VowelConsonantChecker {
         String str="";
         for(int i=0;i<inputString.length();i++)
         {
-            if(inputString.charAt(i)=='a' || inputString.charAt(i)=='e'|| inputString.charAt(i)=='i' || inputString.charAt(i)=='o' || inputString.charAt(i)=='u')
+            if(inputString.charAt(i)=='a' || inputString.charAt(i)=='e'|| inputString.charAt(i)=='i' || inputString.charAt(i)=='o' || inputString.charAt(i)=='u' || inputString.charAt(i)=='A' || inputString.charAt(i)=='E'|| inputString.charAt(i)=='I' || inputString.charAt(i)=='O' || inputString.charAt(i)=='U')
                 str=str+"Vowel ";
             else
                 str=str+"Consonant ";

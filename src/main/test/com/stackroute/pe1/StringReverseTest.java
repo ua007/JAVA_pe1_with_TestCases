@@ -3,10 +3,10 @@ package com.stackroute.pe1;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class string_reverseTest {
+public class StringReverseTest {
     @Test
     public void giverStringShouldReturnReverse(){
-        string_reverse str=new string_reverse();
+        StringReverse str=new StringReverse();
         String result;
         result=str.stringReverse("abcd");
         assertEquals("dcba",result);

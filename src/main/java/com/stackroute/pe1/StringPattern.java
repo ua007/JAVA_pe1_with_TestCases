@@ -1,7 +1,7 @@
 package com.stackroute.pe1;
 
 import java.util.Scanner;
-public class string_pattern {
+public class StringPattern {
     public static void main(String[] args) {
         // write your code here
 
