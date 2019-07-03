@@ -1,9 +1,23 @@
 package com.stackroute.pe1;
-
+import org.junit.After;
+import org.junit.Before;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class tom_and_jeeryTest {
+    
+    tom_and_jeery tj;
+
+    @Before
+    public void setUp() throws Exception
+    {
+        tj=new tom_and_jeery();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        tj=null;
+    }
     //success test cases
     
     //test case for jerry
