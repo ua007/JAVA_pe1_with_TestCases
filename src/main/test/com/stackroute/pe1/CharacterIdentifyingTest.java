@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CharacterIdentifyingTest {
-    
+    CharacterIdentifying ch;
     @Before
     public void setUp() throws Exception
     {
