@@ -5,16 +5,16 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class VowelConsonantCheckerTest {
-    
+    VowelConsonantChecker str;
     @Before
     public void setUp() throws Exception
     {
-        ob=new VowelConsonantChecker();
+        str=new VowelConsonantChecker();
     }
 
     @After
     public void tearDown() throws Exception {
-        ob=null;
+        str=null;
     }
     //test case for lowercase character
     @Test
